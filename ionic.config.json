@@ -1,0 +1,7 @@
+{
+  "name": "yardAppPocIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
