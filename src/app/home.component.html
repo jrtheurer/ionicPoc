@@ -1,0 +1,10 @@
+<ion-header>Home</ion-header>
+<ion-content>
+  <h2 class="ph3">Step One: Scan a barcode</h2>
+  <ion-button href='scan' class="ph3">Scan</ion-button>
+  <div class="ph3" *ngIf="!!data">
+    <p>Result: {{ data }}</p>
+  </div>
+  <h2 class="ph3">Step Two: Print a sticker</h2>
+  <ion-button class="ph3" href='print'>Print</ion-button>
+</ion-content>
